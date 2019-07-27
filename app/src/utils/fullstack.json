@@ -1,0 +1,29 @@
+[
+    {
+        "_id": 0,
+        "title": "The Stylist",
+        "type": "Fullstack",
+        "tools": ["HTML", "CSS", "JavaScript", "Bootstrap", "ReactJS", "NodeJS", "ExpressJS", "OpenTok", "Passport", "Scraper", "MongoDB"],
+        "description": "The Stylist is a fullstacks react-based social-networking applications to help women find personal style consultants in an easy and time-efficient manner.",
+        "deployment": "https://the-stylist.herokuapp.com/",
+        "github": "https://github.com/m-az94/the-stylist"
+    },
+    {
+        "_id": 1,
+        "title": "Google Books Search",
+        "type": "Fullstack",
+        "tools": ["HTML", "CSS", "JavaScript", "Bootstrap", "ReactJS", "NodeJS", "ExpressJS", "Google Books API", "MongoDB"] ,
+        "description": "Google Books Search is a fullstacks referencing library populated by the Google Books API. Users are able to save or delete books for their own reference.",
+        "deployment": "https://enigmatic-lake-85009.herokuapp.com/",
+        "github": "https://github.com/m-az94/GoogleBooksSearch"
+    },
+    {
+        "_id": 2,
+        "title": "The Tea on Nike",
+        "type":"Fullstack",
+        "tools": ["HTML", "CSS", "Bootstrap", "jQuery", "JavaScript", "NodeJS", "ExpressJS","Express-Handlebars", "Scraper", "MongoDB"], 
+        "description": "The Tea on Nike scrapes athletic shoes from Nike's website, allows users to save products and make notes about the shoes.",
+        "deployment": "https://pacific-ocean-95478.herokuapp.com/",
+        "github": "https://github.com/m-az94/TheTeaOnNike" 
+    }
+]

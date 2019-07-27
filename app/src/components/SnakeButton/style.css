@@ -1,0 +1,77 @@
+.snakeBTN a {
+    text-align: center;
+    background: transparent;
+    color: #96DFDB;
+    margin: 1vw;
+    transition: 0.5s;
+}
+.snakeBTN a span h6 {
+    color: #96DFDB;
+    font-size: 3vw;
+}
+.snakeBTN a span {
+    position: absolute;
+    transition: transform .5s;
+
+}
+/* Horizontal Snake Movement */
+.snakeBTN a span:nth-child(1),
+.snakeBTN a span:nth-child(3){
+    width: 100%;
+    height: 1px;
+    background: #96DFDB;
+}
+/* Top */
+.snakeBTN a span:nth-child(1){
+    top: 0;
+    left: 0;
+    transform-origin: right;
+}
+.snakeBTN a:hover span:nth-child(1){
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform .5s;
+}
+/* Bottom */
+.snakeBTN a span:nth-child(3){
+    bottom: 0;
+    left: 0;
+    transform-origin: left;
+}
+.snakeBTN a:hover span:nth-child(3){
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform .5s;
+}
+/* Verticle Snake Movement */
+.snakeBTN a span:nth-child(2),
+.snakeBTN a span:nth-child(4){
+    width: 1px;
+    height: 100%;
+    background: #96DFDB;
+}
+/* Left */
+.snakeBTN a span:nth-child(2){
+    top: 0;
+    left: 0;
+    transform: scaleY(0);
+    transform-origin: bottom;
+}
+.snakeBTN a:hover span:nth-child(2){
+    transform: scaleY(1);
+    transform-origin: top;
+    transition: transform .5s;
+}
+/* Right */
+.snakeBTN a span:nth-child(4){
+    top: 0;
+    right: 0;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+.snakeBTN a:hover span:nth-child(4){
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform .5s;
+}
+

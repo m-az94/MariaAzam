@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
+.navbar {
+    width: 100%;
+    overflow: auto;
+    /* border: 1px solid #e2e2e2; */
+    white-space: nowrap;
+    color: #96DFDB;
+    margin-bottom: 3vw;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0.5vw;
+    margin-bottom: 3vw;
+}
+#topOfNav, Link{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-brand {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-top: 0px;
+    cursor: pointer;
+    font-family: 'Major Mono Display', monospace;
+    color: #96DFDB;
+    font-size: 2.5vw;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.navbar-nav {
+    padding: 0px;
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+    top: 0;
+    left: 55%;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.nav-item{
+    display: inline-flex;
+    justify-content: right;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.navBTN{
+    text-align: center;
+    background: transparent;
+    color: #54B6B7;
+    margin-left: 1vw;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 1.1vw;
+    border: 1px solid  #BB6275;
+    border-radius: 3px;
+    padding: 0.5vw;
+    margin-bottom: 0.1vw;
+
+}
+#gradientBorder {
+    height: 0.2vw;
+    width: 100%; 
+    background-image: linear-gradient(to right, #494747, #96DFDB, #494747);
+    margin-top: 0.3vw;
+    margin-bottom: 0.3vw;
+}
+@media screen and (max-width: 800px){
+    .navbar{
+        height: 6vw;
+    }
+    .navbar-brand{
+        font-size: 4vw;
+        position: relative;
+        left: 0;
+        top:0;
+    }
+    .hamburger{
+        display: inline;
+        margin: 10px;
+        position: absolute;
+        top: 0;
+        left: 90%;
+    }
+    .line{
+        width: 5vw;
+        height: 0.2vw;
+        background-color: #96DFDB;
+        margin-bottom: 1vw;
+
+    }
+    #gradientBorder{
+        height: 0.4vw;
+        margin-top: 0.8vw;
+        margin-bottom: 0.4vw;
+    }
+    .navbar-nav{
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        background: #494747;
+        flex-direction: column;
+        clip-path: circle(10000px, at 90% -10%);
+        -webkit-clip-path: circle(1000px, at 90% -10%);
+        transition: all 1s ease-out;
+    }
+
+}

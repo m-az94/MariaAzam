@@ -1,0 +1,9 @@
+[{
+    "_id": 0,
+    "title": "Bamazon",
+    "type": "Backend",
+    "tools": [ "JavaScript", "MySQL", "NodeJS"],
+    "description": "Bamazon is an e-commerce command-line application, run by NodeJS. The application displays the inventory list and price of products available on bamazon and processes customer orders.",
+    "deployment": "https://github.com/m-az94/bamazon",
+    "github": "https://github.com/m-az94/bamazon"
+}]

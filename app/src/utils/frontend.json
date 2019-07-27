@@ -1,0 +1,46 @@
+[
+    {    "_id": 0,
+        "title": "The Sailor Scout Memory Game",
+        "type": "Frontend",
+        "tools": ["HTML", "CSS", "JavaScript", "Bootstrap", "ReactJS"],
+        "description": "The Sailor Scout Memory Game is a memory game inspired by the popular 90s anime series, Sailor Moon. In this game, must click on images of the characters without any repeats.",
+        "deployment": "https://m-az94.github.io/SailorScoutMemoryGame/",
+        "github": "https://github.com/m-az94/SailorScoutMemoryGame"
+    },
+    {
+        "_id": 1,
+        "title": "Gotham City Transit Terminal",
+        "type":"Frontend",
+        "tools": ["HTML", "CSS", "Bootstrap", "JavaScript", "Firebase", "MomentJS"],
+        "description": "Gotham City Transit Commission is a webpage that allows users to view and update live train schedules.",
+        "deployment": "https://m-az94.github.io/GothamCityTransitCommission/",
+        "github": "https://github.com/m-az94/GothamCityTransitCommission"
+    },
+    {
+        "_id": 2, 
+        "title": "Movie Shuffle",
+        "type": "Frontend",
+        "tools": ["HTML", "CSS", "JavaScript", "jQuery", "MomentJS", "Firebase", "TMDB API", "News API", "Youtube Data API"],
+        "description": "Movie Shuffle is a niche-market news/video website for movie enthusiast",
+        "deployment": "https://m-az94.github.io/MovieShuffle/",
+        "github": "https://github.com/m-az94/MovieShuffle"
+    },
+    {
+        "_id": 3,
+        "title": "Tina the Teenage Math Slayer",
+        "type": "Frontend",
+        "tools": ["HTML", "CSS", "JavaScript", "jQuery"],
+        "description": "Tina the Teenage Math Slayer is an RPG game inspired by Fox Broadcasting Company's Bob's Burgers. ",
+        "deployment": "https://m-az94.github.io/TinaTheTeenageMathSlayer/",
+        "github": "https://github.com/m-az94/TinaTheTeenageMathSlayer"
+    },
+    {
+        "_id": 4,
+        "title": "Hangman with Bob's Burgers",
+        "type": "Frontend",
+        "tools": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+        "description": "Hangman with Bob's Burgers is a front-end word-guess game inspired by the Fox Television animated series, Bob's Burgers.",
+        "deployment": "https://m-az94.github.io/HangmanWithBobsBurgers/",
+        "github": "https://github.com/m-az94/HangmanWithBobsBurgers"
+    }
+]
