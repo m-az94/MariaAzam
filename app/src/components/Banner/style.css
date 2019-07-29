@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
 :root{
     --primary-color: rgba(100%, 100%, 100%, 0.85);
-    --overlay-color:rgb(24%, 58%, 58%, 0.90);
+    --overlay-color:rgb(24%, 58%, 58%, 0.9);
+    --quote-color: rgb(24%, 58%, 58%, 0.50);
 }
 .banner{
-    background-image: url("../../utils/images/bg.png");
+    overflow: scroll;
+    background-image: url("../../utils/images/BG.png");
     background-repeat: no-repeat;
     background-size: auto;
     background-position: bottom right;
@@ -58,6 +60,9 @@
     margin: 0px;
     transform: rotate(135deg);
 }
+.toggle:checked ~ .mainContent{
+    display: none;
+}
 
 /* Animate Menu */
 .toggle:checked ~ .menu {
@@ -66,9 +71,10 @@
 .toggle:checked ~ .menu .transition{
     transform: scale(1);
     transition-duration: 0.4s
+
 }
 .toggle:checked ~ .mainContent{
-    display: hidden;
+    z-index: -10;
 }
 
 /* Menu Overlay */
@@ -114,44 +120,31 @@
 }
 
 /* Main Content */
-.mainContent{
+.mainContent {
+    margin-top: -5%;
+    /* margin-bottom: -5%; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: 100%;
+    height: 80vh;
     width: 40%;
-    margin-left: 20%;
+    margin-left: 5%;
     background: var(--primary-color);
+    /* margin-top: 10%; */
+    /* margin-bottom: auto; */
+    padding-top: 10%;
+    padding-left: 10%;
 }
-#welcome{
-    font-family: 'Major Mono Display', monospace;
-    font-size: 40px;
-    color: #BB6275;
-    font-weight: bold;
-}
-#blurb{
-    font-family: 'Major Mono Display', monospace;
-    font-size: 20px;
-    color: #54B6B7;
-    font-weight: bold;
-}
-.btn{
-    border: 1px solid #54B6B7;
-    border-radius: 3px;
-    color:  #BB6275;
-    font-family: 'Major Mono Display', monospace;
-    font-size: 20px;
-    font-weight: bold;
 
-}
-@media screen and (max-width: 768px){
-    .mainContent{
+@media screen and (max-width: 1083px){
+    .mainContent {
         margin-left: auto;
         margin-right: auto;
         width: 80%;
         padding-left: 10%;
         padding-right: 10%;
+        height: 100vh;
     }
 }

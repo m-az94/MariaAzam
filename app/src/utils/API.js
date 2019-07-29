@@ -4,6 +4,7 @@ import Backend from "./backend.json";
 import Fullstack from "./fullstack.json";
 import Database from "./database.json";
 import React from "./react.json";
+import Skillset from "./skillset.json";
 
 export default {
 allProjects: All,
@@ -11,5 +12,6 @@ frontendProjects: Frontend,
 backendProjects: Backend,
 fullstackProjects: Fullstack,
 databaseProjects: Database,
-reactProjects: React
+reactProjects: React,
+skillset: Skillset
 }

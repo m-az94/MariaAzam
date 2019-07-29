@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display&display=swap');
+:root{
+    --front-color: rgb(24%, 58%, 58%, 0.50);
+    --back-color: rgb(73%, 38%, 46%, 0.50);
+}
+.skillset{
+    /* margin-top: 5%; */
+    margin-left: 150%;
+    padding: 1vw;;
+    transform: translate(-50%, -50%);
+    transform-style: preserve-3d;
+    /* perspective: 50px; */
+    transition: 0.5s;
+    width: 60vw;
+    height: 9vw;
+
+}
+.skillset .front {
+    width: 100%;
+    height: 100%;
+    background: var(--front-color);
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+.skillset .front h1{
+    color: #BB6275;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 35px;
+}
+
+.skillset:hover .front{
+    transform: rotateX(180deg);
+}
+
+.skillset .back{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: var(--back-color);
+    backface-visibility: hidden;
+    transform: rotateX(180deg);
+    transition: 0.5s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.skillset .back .skills {
+    width: 7vw;
+    height: 7vw;
+    display: flex;
+    margin-left: 2px;
+
+}
+.skillset:hover .back{
+    transform: rotateX(0deg)
+}
+@media screen and (max-width: 1083px){
+    .skillset{
+        margin-left: 100%;
+        width: 100%
+    }
+    .skillset .front h1{
+        font-size: 4vw;
+    }
+}

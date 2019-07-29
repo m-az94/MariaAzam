@@ -1,0 +1,27 @@
+[
+    {
+        "_id": 0,
+        "category": "frontend technologies",
+        "skills": [
+            "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png",
+            "https://cdn.worldvectorlogo.com/logos/css3.svg",
+            "http://plugins.netbeans.org/data/images/1501878116_Bootstrap.png",
+            "https://i2.wp.com/kingphiliptrailriders.com/wpinhere/wp-content/uploads/2016/03/js-logo.png?fit=500%2C500&ssl=1",
+            "https://www.logolynx.com/images/logolynx/18/18d044244c2f0215e1023fc331efb601.png",
+            "https://eternitech.com/wp-content/uploads/2016/12/ReactJS.png",
+            "https://dwglogo.com/wp-content/uploads/2017/03/AngularJS_logo_004.svg",
+            "https://miro.medium.com/max/480/1*1RDFnS8FgAOQFegtuynxWw.png"
+        ]
+    },
+    {
+        "_id":1,
+        "category": "backend technologies",
+        "skills": [
+            "http://pluspng.com/img-png/nodejs-logo-png-node-js-development-296.png",
+            "https://www.cloudtrains.com/images/icons/expressjs.png",
+            "https://authy.com/wp-content/uploads/npm-logo.png",
+            "http://presidio-ventures.com/wp-content/uploads/2018/02/MySQL-Logo-275.png",
+            "https://i.dlpng.com/static/png/468328_preview.png"
+        ]
+    }
+]

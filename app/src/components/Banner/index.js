@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import SnakeButton from "../SnakeButton"
 import "./style.css";
 
-let Banner = () =>{
+let Banner = (props) =>{
     return (
         <div class="banner">
             <div class="navIcon">
@@ -29,18 +29,16 @@ let Banner = () =>{
                             </li>
                             <li class="nav-item" id="skills">
                                 <Link to="/skills">
-                                <button class="navBTN" type="button" value="Skills"> skills </button>
+                                <button class="navBTN" type="button" value="Skills"> skillset </button>
                                 </Link>
                             </li>
                         </ul>
                     </div>
                 </div>
-            </div>
                 <div class="mainContent">
-                        <h1 id="welcome"> welcome </h1>
-                        <p id="blurb">Cupcake ipsum dolor sit. Amet sweet halvah croissant sweet marshmallow tart. Ice cream cotton candy cookie sesame snaps pie powder.</p>
-                        <button class="btn"> view my work </button>
+                    {props.children}
                 </div>
+            </div>
         </div>
     )
 }

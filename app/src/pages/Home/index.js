@@ -1,8 +1,12 @@
 import React from "react";
+import Banner from "../../components/Banner";
+import AboutMe from "../../components/AboutMe";
 
 let Home = () => {
     return (
-        <h2>Home page</h2>
+        <Banner>
+            <AboutMe />
+        </Banner>
     )
 }
 
