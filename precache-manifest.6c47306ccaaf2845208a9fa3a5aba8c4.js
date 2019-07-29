@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3bfb8c740cb57ad17e0fe0de1ea42e69",
+    "revision": "10c552d17d361419ea1c73f76a8c7d8b",
     "url": "/MariaAzam/index.html"
   },
   {
-    "revision": "4062ba8464cba4dc8cd0",
+    "revision": "01216ed74ca86aa17b9c",
     "url": "/MariaAzam/static/css/main.f818bf60.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MariaAzam/static/js/2.6ea000ff.chunk.js"
   },
   {
-    "revision": "4062ba8464cba4dc8cd0",
-    "url": "/MariaAzam/static/js/main.3b8f19c9.chunk.js"
+    "revision": "01216ed74ca86aa17b9c",
+    "url": "/MariaAzam/static/js/main.b63c7cc2.chunk.js"
   },
   {
     "revision": "ce156944fa54b35b5228",
