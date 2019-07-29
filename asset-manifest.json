@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/MariaAzam/static/css/main.f818bf60.chunk.css",
+    "main.js": "/MariaAzam/static/js/main.3b8f19c9.chunk.js",
+    "main.js.map": "/MariaAzam/static/js/main.3b8f19c9.chunk.js.map",
+    "runtime~main.js": "/MariaAzam/static/js/runtime~main.cbf007bb.js",
+    "runtime~main.js.map": "/MariaAzam/static/js/runtime~main.cbf007bb.js.map",
+    "static/js/2.6ea000ff.chunk.js": "/MariaAzam/static/js/2.6ea000ff.chunk.js",
+    "static/js/2.6ea000ff.chunk.js.map": "/MariaAzam/static/js/2.6ea000ff.chunk.js.map",
+    "index.html": "/MariaAzam/index.html",
+    "precache-manifest.113e0e5176704618195a9e4b753e095c.js": "/MariaAzam/precache-manifest.113e0e5176704618195a9e4b753e095c.js",
+    "service-worker.js": "/MariaAzam/service-worker.js",
+    "static/css/main.f818bf60.chunk.css.map": "/MariaAzam/static/css/main.f818bf60.chunk.css.map",
+    "static/media/style.css": "/MariaAzam/static/media/BG.84c1eb74.png",
+    "static/media/testimonial.png": "/MariaAzam/static/media/testimonial.54ec5b69.png"
+  }
+}
